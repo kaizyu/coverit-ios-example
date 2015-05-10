@@ -1,2 +1,3 @@
-# coverit-example
-Example Xcode projects of Coverit
+# coverit-ios-example
+
+> Example Xcode projects of Coverit
