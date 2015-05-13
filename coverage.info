@@ -1,0 +1,68 @@
+TN:
+SF:/coverit-ios-example/CoveritExample/AppDelegate.h
+FN:13,-[AppDelegate setWindow:]
+FN:13,-[AppDelegate window]
+FNDA:3,-[AppDelegate window]
+FNDA:1,-[AppDelegate setWindow:]
+FNF:2
+FNH:2
+DA:13,4
+LF:1
+LH:1
+end_of_record
+SF:/coverit-ios-example/CoveritExample/AppDelegate.m
+FN:15,-[AppDelegate .cxx_destruct]
+FN:18,-[AppDelegate application:didFinishLaunchingWithOptions:]
+FN:23,-[AppDelegate applicationWillResignActive:]
+FN:28,-[AppDelegate applicationDidEnterBackground:]
+FN:33,-[AppDelegate applicationWillEnterForeground:]
+FN:37,-[AppDelegate applicationDidBecomeActive:]
+FN:41,-[AppDelegate applicationWillTerminate:]
+FNDA:0,-[AppDelegate .cxx_destruct]
+FNDA:1,-[AppDelegate application:didFinishLaunchingWithOptions:]
+FNDA:0,-[AppDelegate applicationWillResignActive:]
+FNDA:0,-[AppDelegate applicationDidEnterBackground:]
+FNDA:0,-[AppDelegate applicationWillEnterForeground:]
+FNDA:1,-[AppDelegate applicationDidBecomeActive:]
+FNDA:0,-[AppDelegate applicationWillTerminate:]
+FNF:7
+FNH:2
+DA:15,0
+DA:20,1
+DA:21,1
+DA:26,0
+DA:31,0
+DA:35,0
+DA:39,1
+DA:43,0
+LF:8
+LH:3
+end_of_record
+TN:
+SF:/coverit-ios-example/CoveritExample/main.m
+FN:12,main
+FNDA:1,main
+FNF:1
+FNH:1
+DA:13,1
+DA:14,1
+DA:15,1
+DA:16,1
+LF:4
+LH:4
+end_of_record
+TN:
+SF:/coverit-ios-example/CoveritExample/ViewController.m
+FN:17,-[ViewController viewDidLoad]
+FN:22,-[ViewController didReceiveMemoryWarning]
+FNDA:1,-[ViewController viewDidLoad]
+FNDA:0,-[ViewController didReceiveMemoryWarning]
+FNF:2
+FNH:1
+DA:18,1
+DA:20,1
+DA:23,0
+DA:25,0
+LF:4
+LH:2
+end_of_record
