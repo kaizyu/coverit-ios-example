@@ -5,11 +5,11 @@ before_install:
   - brew install lcov
 
 script:
-  - xctool test -scheme CoveritExample -derivedDataPath build -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
+  - xctool test -scheme CoveritExample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
 after_script:
   # - sudo ln -s `pwd` /coverit-ios-example
   # - cat coverage.info | coveralls
-  - ./coverit report
+  - ./coverit report -d ~/Library/Developer/Xcode/DerivedData/ -o coverage.info
   - sudo ln -s `pwd` /coverit-ios-example
   - cat coverage.info
   - cat coverage.info | coveralls
