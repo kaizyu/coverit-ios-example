@@ -10,7 +10,7 @@ after_script:
   # - sudo ln -s `pwd` /coverit-ios-example
   # - cat coverage.info | coveralls
   - ./coverit report -d ~/Library/Developer/Xcode/DerivedData/ -o coverage.info
-  - sudo ln -s `pwd` /coverit-ios-example
+  # - sudo ln -s `pwd` /coverit-ios-example
   - cat coverage.info
   - cat coverage.info | coveralls
 
