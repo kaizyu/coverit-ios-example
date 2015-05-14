@@ -11,6 +11,7 @@ after_script:
   # - cat coverage.info | coveralls
   - ./coverit report
   - sudo ln -s `pwd` /coverit-ios-example
+  - cat coverage.info
   - cat coverage.info | coveralls
 
 notifications:
