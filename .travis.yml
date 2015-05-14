@@ -1,8 +1,12 @@
 language: objective-c
+
+before_install:
+  - sudo easy_install cpp-coveralls
+  - brew install lcov
+
 script:
   - xctool test -scheme CoveritExample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
-after_success:
-  - npm install -g coveralls
+after_script:
   # - sudo ln -s `pwd` /coverit-ios-example
   # - cat coverage.info | coveralls
   - ./coverit report
